@@ -1,0 +1,89 @@
+/* Estilização profissional e elaborada para o site Marmita Fit Congelada */
+
+body {
+  font-family: 'Montserrat', sans-serif; /* Fonte elegante e de fácil leitura */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* Espaçamento entre linhas para melhor legibilidade */
+  background-color: #f8f8f8; /* Cor de fundo neutra e suave */
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #A5C82C, #6E8A0F); /* Degradê verde suave */
+  color: #fff;
+  text-align: center;
+  padding: 40px 0; /* Mais espaço no topo e na base do cabeçalho */
+  position: relative; /* Para posicionar o banner */
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px; /* Espaçamento entre o título e o banner */
+}
+
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: 600; /* Fonte em negrito para destaque */
+}
+
+h1 {
+  font-size: 3em; /* Título principal maior */
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2em; /* Títulos secundários menores */
+}
+
+p {
+  font-size: 1.1em; /* Tamanho de fonte do parágrafo um pouco maior */
+}
+
+ul {
+  list-style: none; /* Remover marcadores da lista de benefícios */
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+  text-align: left; /* Alinhar o texto dos benefícios à esquerda */
+}
+
+button {
+  background-color: #6E8A0F; /* Cor de fundo verde escuro para o botão */
+  color: white;
+  padding: 15px 30px; /* Botão maior e mais chamativo */
+  border: none;
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+button:hover {
+  background-color: #87CB28; /* Cor de fundo mais clara ao passar o mouse */
+}
+
+/* Estilos para o carrossel */
+.slick-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Bordas arredondadas nas imagens do carrossel */
+}
+.video-container {
+  display: flex; /* Permite organizar os vídeos lado a lado */
+  justify-content: space-around; /* Distribui os vídeos com espaçamento igual */
+  margin-top: 20px; /* Adiciona um espaçamento entre o texto e os vídeos */
+}
+
+.video-container iframe {
+  width: 48%; /* Ajusta a largura dos vídeos para caberem lado a lado */
+  margin-bottom: 20px; /* Adiciona um espaçamento entre os vídeos */
+}
